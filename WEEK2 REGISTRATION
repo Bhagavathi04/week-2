@@ -30,8 +30,134 @@ YDWGQOUA>
 <input type="button" name="login" value="Submit">
 <input type="button" name="reset" value="Reset">
 </form>
+a.Create a Web Page using HTML which contains a Heading, Image and 2 hyperlinks. Each hyperlink opens a new page in the same web browser. New page contains “Go Back” link that takes you to the main page.
+
+Week-1.html:
+
+<html>
+
+    <head>
+
+        <title>
+
+            FULL STACK DEVELOPMENT LAB/WEEK-1
+
+        </title>
+
+    </head>
+
+    <body>
+
+        <h1><img src="E:\HtmlPrograms\logo.png" width="150px" height="150px"/>
+
+                     Vidya Jyothi Institute of Technology</h1>
+
+            <a target="_self" href="Welcome.html" >REGISTRATION PAGE</a><br><br><br>
+
+            <a target="_self" href="Lform.html" >Login</a>
+
+        
+
+             
+
+    </body>
+
+</html>
+
+ 
+
+
+
+
+
+
+
+LForm.html:
+
+<html>
+
+<head><title>login</title></head>
+
+<body>
+
+<form name="frm1">
+
+<table align="center">
+
+<caption><h3>Login</h3></caption>
+
+<tr>
+
+<td>UserName :</td>
+
+<td><input type="text" name="uname"></input></td>
+
+</tr>
+
+<tr>
+
+<td>Password :</td>
+
+<td><input type="password" name="pwd"></input></td>
+
+</tr>
+
+<tr><td></td>
+
+<td><input type="button" name="login" value="Login"></input></td>&nbsp;
+
+<td><a href="week-1.html"><input type="button" name="GOBAck" value="GoBack"/></a></td>
+
+</tr>
+
+</table>
+
+</form>
+
+</body>
+
+</html>
+
+
+
+ 
+
+Welcome.html:
+
+<html>
+
+    <head>
+
+        <title>Welcome</title>
+
+    </head>
+
+    <body>
+
+        Welcome to VJIT<br><br><br>
+
+        <a href="week-1.html"><input type="button" name="GOBAck" value="GoBack"/></a>
+
+    </body>
+
+</html>
+
+
+
+ 
+
+
+
+
+
+
+
+
 </body>
 </html>
+
+
+
 
 
 
